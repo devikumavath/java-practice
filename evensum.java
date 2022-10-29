@@ -1,4 +1,4 @@
-// sum of n even numbers
+// sum of n odd or even numbers
 
 import java.util.Scanner;
 public class evensum {
@@ -28,6 +28,8 @@ public class evensum {
            
 
         }
+
+        obj.close();
     }
     
 }

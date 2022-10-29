@@ -13,9 +13,8 @@ public class sumofnatural {
             sum=sum+i;
         
         }
-         System.out.println("addition  = " + sum);
-        
-    }
+         System.out.println("sum of " + n + " terms is "  + sum);
 
-
+         obj.close();
+         }
 }

@@ -15,7 +15,7 @@ public class printodd  {
              
          System.out.print(i  + " "); 
        }
-    
+    obj.close();
     }
 
     

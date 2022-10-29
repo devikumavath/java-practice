@@ -13,6 +13,8 @@ public class rectanglearea {
         area = l * b;
         System.out.println("area of the rectangle = " + area);
 
+        obj.close();
+
     }
 
 }

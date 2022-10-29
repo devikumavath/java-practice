@@ -37,6 +37,8 @@ public class nameofday {
                 System.out.println("invaild day");
                 break;
         }
+
+        obj.close();
     }
 
 }

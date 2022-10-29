@@ -14,8 +14,7 @@ public class power {
            result= n*result;
             
         }
-
-      System.out.println("power = " +result);  
+          System.out.println("power = " +result);  
+         obj.close();
+     }
     }
-    
-}

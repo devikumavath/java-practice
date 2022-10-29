@@ -12,12 +12,15 @@ public class evenoddsum {
             for (int i = 0; i <= n; i = i + 2) {
                 sum = sum + i;
             }
-            System.out.println("addition of even  =  " + sum);
+            System.out.println("sum of even numbers  =  " + sum);
         } else {
             for (int i = 1; i <= n; i = i + 2) {
                 sum = sum + i;
             }
-            System.out.println("addition of odd  = " + sum);
+            System.out.println("sum of odd numbers = " + sum);
         }
+
+        obj.close();
     }
 }
+

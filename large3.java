@@ -20,6 +20,8 @@ public class large3 {
             System.out.println("all are equal");
         }
 
+        obj.close();
+
     }
 
 }

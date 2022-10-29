@@ -13,6 +13,8 @@ public class swapnowithout3variable {
       b=a-b;
       a=a-b;
       System.out.println("before swapping = " +a +" and " +b);
+
+      obj.close();
     }
     
 }

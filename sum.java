@@ -13,6 +13,8 @@ public class sum {
         System.out.println("sum of a and b is");
         System.out.println(a+b);
 
+        obj.close();
+
 
     }
     

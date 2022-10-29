@@ -14,7 +14,8 @@ public class charuppernlower {
             System.out.println("lower case = "  +ch2);
         } else {
             ch2 = Character.toUpperCase(ch);
-            System.out.println(" upper case = "   +ch2);
+            System.out.println("upper case = "   +ch2);
         }
+        obj.close();
     }
 }

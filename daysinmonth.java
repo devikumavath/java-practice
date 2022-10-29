@@ -15,7 +15,7 @@ public class daysinmonth {
         } else if (n == 3) {
             System.out.println("march = 31 days");
         } else if (n == 4) {
-            System.out.println("aprril = 30 days");
+            System.out.println("april = 30 days");
         } else if (n == 5) {
             System.out.println("may = 31 days");
         } else if (n == 6) {
@@ -37,5 +37,7 @@ public class daysinmonth {
         else {
             System.out.println("invalid month number");
         }
+
+        obj.close();
     }
 }

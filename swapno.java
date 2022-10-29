@@ -13,6 +13,7 @@ public class swapno {
       num1=num2;
       num2=tem;
       System.out.println("after swapping = " +num1 + " and "  +num2);
+      obj.close();
     }
     
 }

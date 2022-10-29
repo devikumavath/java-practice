@@ -14,6 +14,8 @@ public class unary {
 
         System.out.println(a);
         System.out.println(++a);
+
+        obj.close();
     }
     
 }

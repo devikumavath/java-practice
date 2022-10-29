@@ -13,5 +13,7 @@ public class sumofdigits {
 
         }
         System.out.print(sum);
+
+        obj.close();
     }
 }

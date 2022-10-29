@@ -15,5 +15,9 @@ public class naturalNO {
         System.out.println(i);
         
     }
+    obj.close();
 }
 }
+
+
+

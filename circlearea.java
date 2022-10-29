@@ -13,6 +13,8 @@ public class circlearea {
         r = obj.nextInt();
         area = pi * r * r;
         System.out.println("area of the circle = " + area);
+
+        obj.close();
     }
 
 }

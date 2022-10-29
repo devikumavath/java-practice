@@ -8,5 +8,6 @@ public class squarearea {
     side=obj.nextInt();
     area=side*side;
     System.out.println("enter of square = " + area); 
+    obj.close();
   }  
 }

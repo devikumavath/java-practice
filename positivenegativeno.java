@@ -16,6 +16,6 @@ public class positivenegativeno {
         } else {
             System.out.println(num + "  " + "niether postive nor negative");
         }
-
+        obj.close();
     }
 }

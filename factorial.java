@@ -14,6 +14,8 @@ public class factorial {
             fact = fact * i;
         }
         System.out.println("factorial =  " + fact);
+
+        obj.close();
     }
 
 }

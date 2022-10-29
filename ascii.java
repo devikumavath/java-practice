@@ -10,7 +10,6 @@ public class ascii {
 
      int a=ch;  
      System.out.println("ASCII value of "+ch +" is "  +a);
-        
+    r.close();    
     }
-    
 }

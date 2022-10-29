@@ -13,7 +13,7 @@ public class printeven {
              
          System.out.print(i  + " "); 
        }
-    
+      obj.close();
     }
 
     

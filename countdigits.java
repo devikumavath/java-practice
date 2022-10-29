@@ -13,6 +13,8 @@ public class countdigits {
             count++;
         }
         System.out.println("number of digits =" + count);
+
+        obj.close();
     }
 
 }

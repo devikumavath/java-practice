@@ -9,6 +9,8 @@ public static void main(String[] args) {
     a=obj.nextInt();
     System.out.println(a);
 
+    obj.close();
+
 
 }
 }

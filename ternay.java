@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-import jdk.javadoc.internal.tool.Main;
+
 
 public class ternay {
     public static void main(String[] args) {
@@ -16,6 +16,8 @@ public class ternay {
         max= (a>b) ? (a>c?a:c):(b>c?b:c);
         System.out.println("largest number among three is");
         System.out.println(max);
+
+        obj.close();
     }
     
 

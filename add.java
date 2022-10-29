@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class add {
     public static void main(String[] args) {
-        int a = 10, b = 20;
-        System.out.println("sum=" + (a + b));
+       Scanner obj = new Scanner(System.in);
+       int N1 = obj.nextInt();
+       int N2 = obj.nextInt();
+       
+       int sum = N1+N2;
+       System.out.println("sum of two numbers: " + sum);
     }
 }

@@ -14,6 +14,8 @@ public class factors {
             }
         }
         System.out.println("are factors of" + " " + n);
+
+        obj.close();
     }
 
 }

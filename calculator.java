@@ -9,7 +9,7 @@ public class calculator {
         Scanner obj = new Scanner(System.in);
         n1 = obj.nextInt();
         n2 = obj.nextInt();
-        System.out.println("1 = add \n 2=sub \n 3=mutipile \n 4=division \n 5=modulo \n");
+        System.out.println("1)add \n2)sub \n3)mutipile \n4)division \n5)modulo \n");
 
         System.out.println("enter opertor");
         ch = obj.nextInt();
@@ -34,7 +34,6 @@ public class calculator {
         else {
             System.out.println("invalid choice");
         }
-
-    }
-
+      obj.close();
+  }
 }
